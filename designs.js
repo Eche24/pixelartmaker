@@ -18,7 +18,7 @@ $('#sizePicker').submit(function (event) {
 function makeGrid(a, b) {
 
 // Your code goes here!
-$('tr').remove();
+ $('tr').remove(); // remove the table row
 
 for(var i = 1; i <= a; i++){
 
